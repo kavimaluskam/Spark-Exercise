@@ -1,0 +1,4 @@
+metastore_db
+.ipynb_checkpoints
+*.parquet
+derby.log
