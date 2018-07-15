@@ -31,9 +31,6 @@ One may also setup the AWS access and getting the data from AWS s3. But remember
     $ export PYSPARK_DRIVER_PYTHON_OPTS='notebook'
     ```
 
-## Remarks
+## Assumptions / Remarks
 - In this repo data are assumed download, 
-- `3. Basic View Analysis` is refering to question 1; `4. Session Analysis` is refering to question 2
-- Assumed data with empty article_id / user_id are invalid and hence removed (?)
-- For question 1d. Assumed average/ median pageview per user is meant to be **a single value** instead of a list of value per user
-- For question 1d. Median are calculated as an approximate value for simplicty.
+- Data with empty article_id / user_id are discovered (as shown in notebook); But such data are not removed from the analysis.
