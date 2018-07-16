@@ -8,6 +8,7 @@
     - corresponding pageviews: 49,249
 - 1c:
     - article with greatest number of pageviews **in every hours**:
+    
         |hour|article_id|count|
         |----|----------|-----|
         |  00|       830| 3105|
