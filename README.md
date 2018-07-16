@@ -34,3 +34,6 @@ One may also setup the AWS access and getting the data from AWS s3. But remember
 ## Assumptions / Remarks
 - In this repo data are assumed download, 
 - Data with empty article_id / user_id are discovered (as shown in notebook); But such data are not removed from the analysis.
+
+### Answer of exercise
+[Is here](./answer.md)
